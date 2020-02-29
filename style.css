@@ -17,7 +17,7 @@ html {
 
 article {
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 1200px;
 }
 
 .headerbar {
@@ -73,6 +73,7 @@ article header {
 #home {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 #home div {
