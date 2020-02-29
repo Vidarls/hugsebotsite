@@ -1,0 +1,81 @@
+html {
+    font-size: 16px;
+    font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+    line-height: calc(1.3em + (1.5 - 1.3) * ((100vw - 21em)/(35 - 21))); 
+    color: #4c4e4c;  
+ }
+  @media screen and (min-width: 320px) {
+    html {
+      font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+    }
+  }
+  @media screen and (min-width: 1000px) {
+    html {
+      font-size: 22px;
+    }
+  }
+
+article {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.headerbar {
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top:0;
+}
+
+.headerbar .cta-button {
+    margin-right: 2ex;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cta a {
+    flex: 1 1 0;
+    margin: 2ex;
+    min-width: 150px;
+}
+
+.cta-button {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 100%;
+    color: #FFF;
+    background: #5dc390;
+    border-radius: 22px;
+    overflow: hidden;
+    display: inline-block;
+    padding: 2ex;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+}
+
+article {
+    margin-top: 2ex;
+}
+
+article header {
+    display: block;
+}
+
+#home {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#home div {
+    flex: 1 1 0;
+    margin-top: 20px;
+}

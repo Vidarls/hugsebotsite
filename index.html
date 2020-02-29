@@ -1,89 +1,184 @@
-
-<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>HugseBot</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <meta property="og:title" content="HugseBot">
-    <meta property="og:image" content="https://telegram.org/img/t_logo.png">
-    <meta property="og:site_name" content="Telegram">
-    <meta property="og:description" content="You can contact @hugsebot right away.">
-
-    <meta property="twitter:title" content="HugseBot">
-    <meta property="twitter:image" content="https://telegram.org/img/t_logo.png">
-    <meta property="twitter:site" content="@Telegram">
-
-    <meta property="al:ios:app_store_id" content="686449807">
-    <meta property="al:ios:app_name" content="Telegram Messenger">
-    <meta property="al:ios:url" content="tg://resolve?domain=hugsebot">
-
-    <meta property="al:android:url" content="tg://resolve?domain=hugsebot">
-    <meta property="al:android:app_name" content="Telegram">
-    <meta property="al:android:package" content="org.telegram.messenger">
-
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@Telegram">
-    <meta name="twitter:description" content="You can contact @hugsebot right away.
-    ">
-    <meta name="twitter:app:name:iphone" content="Telegram Messenger">
-    <meta name="twitter:app:id:iphone" content="686449807">
-    <meta name="twitter:app:url:iphone" content="tg://resolve?domain=hugsebot">
-    <meta name="twitter:app:name:ipad" content="Telegram Messenger">
-    <meta name="twitter:app:id:ipad" content="686449807">
-    <meta name="twitter:app:url:ipad" content="tg://resolve?domain=hugsebot">
-    <meta name="twitter:app:name:googleplay" content="Telegram">
-    <meta name="twitter:app:id:googleplay" content="org.telegram.messenger">
-    <meta name="twitter:app:url:googleplay" content="https://t.me/hugsebot">
-
-    <meta name="apple-itunes-app" content="app-id=686449807, app-argument: tg://resolve?domain=hugsebot">
-    <link rel="shortcut icon" href="//telegram.org/favicon.ico?3" type="image/x-icon" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css">
-    <!--link href="/css/myriad.css" rel="stylesheet"-->
-    <link href="//telegram.org/css/bootstrap.min.css?3" rel="stylesheet">
-    <link href="//telegram.org/css/telegram.css?180" rel="stylesheet" media="screen">
-    <style>
-      .center {        
-        display:block;
-        margin-left:auto;
-        margin-right:auto;
-      }
-    </style>
-  </head>
-  <body>
-
-    <div class="tgme_page_wrap">
-      <div class="tgme_head_wrap">
-        <div class="tgme_head">
-          <a href="/" class="tgme_head_brand">
-            <i>HugseBot</i>
-          </a>
-        </div>
-      </div>
-      <a class="tgme_head_dl_button" href="//telegram.org/dl">
-        Don't have <strong>Telegram</strong> yet? Try it now!<i class="tgme_icon_arrow"></i>
-      </a>
-      <div class="tgme_page">
+    <head>
+        <meta name="viewport" content="width=device-width">
+        <title>HugseBot</title>
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <div class="headerbar">
+                <a href="/"><img src="logo.png" alt="HugseBot Logo"/></a>
+                <a class="cta-button" href="https://t.me/hugsebot">Try HugseBot</a>
+            </div>
+        </header>
         
-<div class="tgme_page_title">HugseBot</div>
-<img class="center" src="hugsebotbildecropped.png" alt="HugseBot avatar" />
-<div class="tgme_page_extra">
-  @hugsebot
-</div>
-
-<div class="tgme_page_action">
-  <a class="tgme_action_button_new" href="tg://resolve?domain=hugsebot">Send Message</a>
-</div>
-<!-- WEBOGRAM_BTN -->
-<!-- PRIVACY_BTN -->
-<div class="tgme_page_additional">
-  If you have <strong>Telegram</strong>, you can contact <br><strong>HugseBot</strong> right away.
-</div>
-      </div>
-    </div>
-
-    <div id="tgme_frame_cont"></div>
-  </body>
+        <article id="home">
+            <div>
+            <img src="hugsebotbilde.png" alt="Image of the HugseBot avatar that looks like a red robot with a mustache"/>
+            </div>
+            <div>
+            <header>
+                <h1>HugseBot</h1>
+                <h3>A Telegram bot for lists of all kinds</h3>
+            </header>
+            <main>
+                <blockquote>
+                    <em>Hugse (v)</em> - (norwegian) To remember
+                </blockquote>
+                <p>
+                    HugseBot is a really simple <a href="https://telegram.org">Telegram</a> bot
+                    that lets you maintain lists. Perfect for shopping / grocery lists and todo lists.
+                </p>
+                <p>
+                    The idea was to make a list bot that is super easy to use, and 
+                    behaves well in both groups and private chats.
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            Add / remove items
+                        </li>
+                        <li>
+                            Check / uncheck items
+                        </li>
+                        <li>
+                            Works well in group chats and private chats
+                        </li>
+                    </ul>
+                </p>
+                <div class="cta">
+                    <a class="cta-button" href="https://t.me/hugsebot">Start using HugseBot</a>
+                    <a class="cta-button" href="https://t.me/hugsebot?startgroup=true">Add HugseBot to group</a>
+                </div>
+                </main>
+            </div>
+        </article>
+        <article id="features">
+            <header>
+                <h2>Features</h2>
+            </header>
+            <main>
+                <section>
+                    <header>
+                        <h3>One chat one list</h3>
+                    </header>
+                    <main>
+                        <blockquote>Chat = List</blockquote>
+                        <p>
+                            Each chat has one shared list. 
+                            Your private chat with the bot is your personal list.
+                        </p>
+                        <p>
+                            <em>
+                                For more private lists, create a group with only 
+                                you and the bot as members.
+                            </em>
+                        </p>
+                    </main>
+                </section>
+                <section>
+                    <header>
+                        <h3>Send a message or reply to add an item</h3>
+                    </header>
+                    <main>
+                        <p>
+                            In private chats, any message sent to the bot is 
+                            added to the list.
+                        </p>
+                        <p>
+                            In group chats any reply to the bot is added to the list
+                            as an item. 
+                            <br />
+                            <em>
+                                Use the ➕ button to enter into reply mode to enter many items
+                                fast.
+                            </em>
+                        </p>
+                        <p>
+                            Add many items in one messsage: 
+                            <em>
+                                Each line in a message is added as a separate item.
+                            </em> 
+                        </p>
+                    </main>
+                </section>
+                <section>
+                    <header>
+                        <h3>Inline keys for easy actions</h3>
+                    </header>
+                    <main>
+                        <p>
+                            When checking or removing items, inline keys
+                            makes the actions fast and eay.
+                        </p>
+                    </main>
+                </section>
+            </main>
+        </article>
+        <article id="support">
+            <header>
+                <h2>Support HugseBot</h2>
+            </header>
+            <main>
+                <p>
+                    HugseBot is developed as a private side project.
+                </p>
+                <p>
+                    Operating an online service has some costs. And it would be
+                    nice to at leat cover those.
+                </p>
+                <p>
+                    Many apps and services are either financed by directly or indirectly 
+                    selling users personal information to big ad networks.
+                </p>
+                <p>
+                    HugseBot wants to be different, and will ask you politely to 
+                    click a link from <a href="https://tize.io">tize.io</a>.
+                    Tize is a service that delivers advertisement without tracking and selling
+                    users information. 
+                    (And you will not be asked to download a bad mobile game. Most of the ads are for
+                    artists promoting their new content.)
+                </p>
+                <p>
+                    <a href="https://tize.io/TEQaVS1">Support HugseBot right now.</a>
+                    <br/>
+                    (And get a preview of how the advertisements looks.)
+                </p>
+            </main>
+        </article>
+        <article id="terms">
+            <header>
+                <h2>Terms / Privacy policy</h2>
+            </header>
+            <main>
+                <section>
+                    <header>
+                        <h3>Terms</h3>
+                    </header>
+                    <main>
+                        <p>
+                            HugseBot is delivered for free, with no guarantees, and accept no liability for any 
+                            damages that might be caused.
+                        </p>    
+                    </main>
+                </section>
+                <section>
+                    <header>
+                        <h3>Privacy policy</h3>
+                    </header>
+                    <main>
+                        <p>
+                            <em>HugseBot only collects the state of your list.</em>
+                        </p>
+                        <p>
+                            No other personal data is collected or saved.
+                        </p>
+                        <p>
+                            No personal data is shared with any third party.
+                        </p>
+                    </main>
+                </section>
+            </main>
+        </article>
+    </body>
 </html>
-<!-- page generated in 8.9ms -->
