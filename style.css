@@ -80,3 +80,9 @@ article header {
     flex: 1 1 0;
     margin-top: 20px;
 }
+
+footer {
+    margin-top: 3ex;
+    font-style: italic;
+    font-size: 0.7em;
+}
